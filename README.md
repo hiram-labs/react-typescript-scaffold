@@ -15,12 +15,12 @@ This is a React App configured and setup up with typescript.
 Start a new local workspace in VScode or prefered editor and in the terminal
 
 - git clone https://github.com/hiram-labs/react-typescript-scaffold.git
-- cd react-typescript-scaffold.git
+- cd react-typescript-scaffold
 - npm install
 
 ## Run
 
-In the react-typescript-scaffold.git directory
+In the **react-typescript-scaffold** directory
 
 - npm start
 - from local browser open http://localhost:3000/
@@ -31,4 +31,4 @@ In the react-typescript-scaffold.git directory
 
 - npm run build
 
-Bundle is available in the \***\*dist\*\*** folder
+Bundle is available in the **dist** folder
