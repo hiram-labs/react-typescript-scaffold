@@ -1,14 +1,13 @@
 import { hot } from 'react-hot-loader';
 import React, { Component } from 'react';
-import styles from './App.module.scss';
-import cx from 'classnames';
-import { Layout } from './components';
+import './app.scss';
+import { Layout, Header, Body, Footer } from './components/index';
 
 class App extends Component {
   render() {
     return (
-      <div className={cx(styles.container)}>
-        <Layout header={''} body={''} footer={''} />
+      <div className="root">
+        <Layout header={<Header />} body={<Body />} footer={<Footer />} />
       </div>
     );
   }

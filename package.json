@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development & npx tsm src --watch --ignoreInitial --ignore '**/app.scss'",
+    "start-no-tsm": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.*' --write"
   },
@@ -27,12 +28,14 @@
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "ts-loader": "^8.0.3",
+    "typed-scss-modules": "^3.0.0",
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.10",
     "@types/jquery": "^3.5.1",
     "classnames": "^2.2.6",
     "gsap": "^3.5.1",
