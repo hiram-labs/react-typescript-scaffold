@@ -14,11 +14,11 @@ This is a React App configured and setup up with typescript.
 
 This app allows for modular styling
 
-For a component with filename **component.tsx**
-Create a stylesheet in same folder as component and name it **'componet.module.scss'**.
-This style sheet can then be imported into the component as **'import styles from './componet.module.scss'**
-To apply the styles from within this stylesheet alone on an element in the component use **className={styles.nameOfClass}**
-To apply multiple classes use **className={cx(styles.nameOfClass, styles.nameOfAnotherClass, 'globalClassAsString')}**
+- For a component with filename **component.tsx**
+- Create a stylesheet in same folder as component and name it **'componet.module.scss'**.
+- This style sheet can then be imported into the component as **'import styles from './componet.module.scss'**
+- To apply the styles from within this stylesheet alone on an element in the component use **className={styles.nameOfClass}**
+- To apply multiple classes use **className={cx(styles.nameOfClass, styles.nameOfAnotherClass, 'globalClassAsString')}**
 
 **HINT**
 
