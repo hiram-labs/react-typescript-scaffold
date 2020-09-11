@@ -1,7 +1,7 @@
 {
-  "name": "hiram_labs_ltd",
+  "name": "react-typescript-scaffold",
   "version": "1.0.0",
-  "description": "Hiram Labs Ltd - web application",
+  "description": "A react application scaffold setup with typescript.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -44,5 +44,8 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-icons": "^3.11.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
