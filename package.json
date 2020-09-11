@@ -11,7 +11,13 @@
     "prettier-format": "prettier --config .prettierrc 'src/**/*.*' --write"
   },
   "author": "Owusu K",
+  "sponsor": "Hiram Labs Ltd",
   "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/hiram-labs/react-typescript-scaffold/issues"
+  },
+  "homepage": "https://github.com/hiram-labs/react-typescript-scaffold#readme",
+  "email": "adjeibohyen@hotmail.co.uk",
   "devDependencies": {
     "@babel/cli": "^7.11.5",
     "@babel/core": "^7.11.5",
@@ -44,8 +50,5 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-icons": "^3.11.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
